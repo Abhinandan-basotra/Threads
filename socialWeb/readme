@@ -1,0 +1,26 @@
+ -------------------------------LIBRARIES -------------------------
+🔴nodemon :- 
+    Nodemon automatically restarts your server when file changes are      detected, which is handy for backend development.
+        it used here
+        "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+        },
+🔴bcryptjs :- 
+    bcryptjs is used to hash passwords in JavaScript applications.       Hashing is a one-way process that transforms data (like passwords) into a fixed-size string of characters, which is very hard to revert back to the original data
+    eg:- bcrypt.hash("mypassword123", "$2b$10$wMrvYrGh9fQHLzG2Kgm8F.")
+         $2b$10$wMrvYrGh9fQHLzG2Kgm8F.ftXGWhDk8fI2BoJSNx5p.YhFM5Dzo5K
+
+🔴dotenv :- 
+    dotenv is a handy package for managing environment variables in Node.js projects. It loads variables from a .env file into process.env, so you don't have to hardcode sensitive information like API keys or database URLs in your code. This keeps your app more secure and easier to configure across different environments. 
+🔴cookies-parser :- 
+
+
+//----------------------------------------------------------------
+
+how to open files an upload
+
+  -for that javascript gives a function FileReader() that reads the contents of the file and returns the contents as a string that can be used to upload
+
+  -to convert string data into actual form we use readAsDataURL()
